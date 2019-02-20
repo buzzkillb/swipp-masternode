@@ -33,7 +33,7 @@ sudo swapon /swapfile
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
 echo "Installing Dependencies"
-sudo apt-get --assume-yes install build-essential make g++ libboost-all-dev libssl-dev libdb5.3++-dev libminiupnpc-dev libz-dev libcurl4-openssl-dev
+sudo apt-get --assume-yes install automake build-essential make g++ libboost-all-dev libssl-dev libdb5.3++-dev libminiupnpc-dev libz-dev libcurl4-openssl-dev
 
 #Echo "Grab libdb"
 #sudo add-apt-repository ppa:bitcoin/bitcoin -y
