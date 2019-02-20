@@ -50,7 +50,7 @@ cd ~/swippcore/src
 make -f makefile.unix
 mv ~/swippcore/src/swippd /usr/local/bin/swippd
 
-echo "Populate denarius.conf"
+echo "Populate swipp.conf"
 mkdir ~/.swipp
     # Get VPS IP Address
     VPSIP=$(curl ipinfo.io/ip)
