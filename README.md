@@ -1,0 +1,2 @@
+# swipp-masternode
+Do Eeet!
