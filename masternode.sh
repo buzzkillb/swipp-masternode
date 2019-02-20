@@ -46,9 +46,9 @@ git clone https://github.com/teamswipp/swippcore
 #chmod +x build_detect_platform
 #make
 #make libleveldb.a libmemenv.a
-cd ~/swipp/src
+cd ~/swippcore/src
 make -f makefile.unix
-mv ~/swipp/src/swippd /usr/local/bin/swippd
+mv ~/swippcore/src/swippd /usr/local/bin/swippd
 
 echo "Populate denarius.conf"
 mkdir ~/.swipp
